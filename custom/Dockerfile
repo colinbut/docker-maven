@@ -11,3 +11,9 @@ RUN apt-get update
 RUN apt-get install -y oracle-java8-installer
 RUN echo "Setting environment variables for Java 8"
 RUN apt-get install -y oracle-java8-set-default
+
+
+RUN echo "Installing Maven"
+RUN apt-get install -y maven
+
+RUN echo "Finished installing Maven"
